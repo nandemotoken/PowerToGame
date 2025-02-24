@@ -1,0 +1,15 @@
+/* スマートフォン向けのテキスト折り返し制御 */
+.content-area {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* スマートフォン向けのメディアクエリ */
+@media screen and (max-width: 768px) {
+  .content-area {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px;
+  }
+}

@@ -73,14 +73,14 @@
           on:click={startGym}
           class="start-btn"
         >
-          ジムを開始 💪
+          開始 💪
         </button>
       {:else}
         <button 
           on:click={endGym}
           class="end-btn"
         >
-          ジムを終了
+          終了 💪
         </button>
       {/if}
     </div>
@@ -92,14 +92,14 @@
           class="start-btn"
           disabled={powerPoints <= 0}
         >
-          ゲームセンターを開始 🎮
+          開始 🎮
         </button>
       {:else}
         <button 
           on:click={endGame}
           class="end-btn"
         >
-          ゲームセンターを終了
+          終了 🎮
         </button>
       {/if}
     </div>
@@ -113,7 +113,7 @@
 
   {#if isGameActive}
     <div class="status active">
-      ゲームプレイ中... 🎮
+      ゲームセンター中... 🎮
     </div>
   {/if}
 </main>

@@ -57,8 +57,8 @@
 </script>
 
 <main class="container">
-  <h1>Power To Game
-    <span class="emoji">💪🎮</span>
+  <h1>Power To Game<br>
+    💪🎮
   </h1>
 
   <div class="power-gauge">

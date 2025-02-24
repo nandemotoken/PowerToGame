@@ -57,7 +57,9 @@
 </script>
 
 <main class="container">
-  <h1>Power To Game 💪🎮</h1>
+  <h1>Power To Game
+    <span class="emoji">💪🎮</span>
+  </h1>
 
   <div class="power-gauge">
     <div class="gauge-label">Power Points: {powerPoints}分</div>
